@@ -1,0 +1,25 @@
+{
+    "name": "DirectX Shader Compiler",
+    "id": "dxc",
+    "version": "1.0.0",
+    "description": "Adds DirectX Shader Compiler to container PATH",
+    "options": {
+        "release": {
+            "type": "string",
+            "enum": [
+                "v1.8.2403.2",
+                "v1.8.2403.1",
+                "v1.8.2403",
+                "v1.7.2308",
+                "v1.8.2306-preview",
+                "v1.7.2212.1",
+                "v1.7.2212"
+            ],
+            "default": "v1.7.2308",
+            "description": "Select a DirectX Shader Compiler version to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

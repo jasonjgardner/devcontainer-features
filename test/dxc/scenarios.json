@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "dxc": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "dxc": {
+                "version": "v1.8.2403.2"
             }
         }
     }
