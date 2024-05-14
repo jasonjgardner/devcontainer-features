@@ -34,8 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - dxc
     steps:
       - uses: actions/checkout@v3
 
